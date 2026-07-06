@@ -146,6 +146,7 @@ Object.assign(zh,{
 "THINKING TOGETHER":"一起思考","Participants explore, discuss and improve their work through group practice.":"参与者透过小组练习，一起探索、讨论并改善工作成果。",
 "Watch participant testimonials on YouTube":"前往 YouTube 观看学员见证","Local file previews cannot load the embedded YouTube player. The player will appear automatically on the published website.":"本地文件预览无法加载 YouTube 内嵌播放器。网站发布后，播放器会自动显示。"
 });
+Object.assign(zh,{"Watch a participant share their own learning experience. CST does not add or rewrite their words.":"观看一位学员亲自分享学习体验。CST 不添加或改写他的说法。","Watch the testimonial on YouTube ↗":"前往 YouTube 观看学员见证 ↗","Watch the participant testimonial on YouTube":"前往 YouTube 观看学员见证"});
 Object.assign(zh,{
 "Start learning how to think with AI.":"开始学习如何与 AI 一起思考。",
 "AI Prompt Thinking helps founders, leaders and working professionals break down problems, build useful context, ask better questions, identify blind spots and improve AI responses through a structured thinking loop.":"AI 思维范式帮助创办人、领导者与职场人士拆解问题、建立有用背景、提出更好的问题、发现盲点，并透过结构化思考循环改善 AI 回应。",
