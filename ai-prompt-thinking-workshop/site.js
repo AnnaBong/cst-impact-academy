@@ -5,12 +5,12 @@ const current=location.pathname.split("/").pop()||"index.html";
 const wa="https://wa.me/60186606731?text="+encodeURIComponent("Hi Anna, I found CST through the website and would like to learn more about CST’s programmes and AI transformation pathways.");
 const kakuSignup="https://fgj4h8mrk8.sg.larksuite.com/share/base/form/shrlgOqgSh5gOey0V4RbRhf0R6c?from=navigation";
 const socialLinks=[
-  {name:"Instagram",short:"IG",url:"https://www.instagram.com/training_cst?igsh=cmRxamh3YXoxcDM="},
-  {name:"小红书",short:"XHS",url:"https://xhslink.com/m/AZ5nGvGeWBS"},
-  {name:"TikTok",short:"TT",url:"https://www.tiktok.com/@csttraining?_r=1&_t=ZS-97itRzeLOsf"}
+  {name:"Instagram",icon:"instagram",url:"https://www.instagram.com/training_cst?igsh=cmRxamh3YXoxcDM="},
+  {name:"小红书",icon:"xiaohongshu",url:"https://xhslink.com/m/AZ5nGvGeWBS"},
+  {name:"TikTok",icon:"tiktok",url:"https://www.tiktok.com/@csttraining?_r=1&_t=ZS-97itRzeLOsf"}
 ];
 document.querySelector("[data-header]").innerHTML=`<header class="site-header"><a class="brand" href="index.html"><span class="logo-crop"><img src="assets/cst-logo.png" alt="CST"></span><small>IMPACT ACADEMY</small></a><nav>${pages.map(([n,u])=>`<a class="${current===u?"active":""}" href="${u}">${n}</a>`).join("")}</nav><div class="header-actions"><div class="lang-switch" aria-label="Language"><button data-lang="zh">中文</button><button data-lang="en">English</button></div><a class="talk" href="${wa}" target="_blank" rel="noopener">Talk to CST ↗</a></div><button class="menu" aria-expanded="false" aria-label="Open navigation"><i></i><i></i></button></header>`;
-document.querySelector("[data-footer]").innerHTML=`<footer class="footer"><div class="wrap footer-grid"><div><a class="brand" href="index.html"><span class="logo-crop"><img src="assets/cst-logo.png" alt="CST"></span><small>IMPACT ACADEMY</small></a><p>Navigating the AI Era, Together.</p><div class="social-links" aria-label="CST social media">${socialLinks.map(s=>`<a href="${s.url}" target="_blank" rel="noopener noreferrer" aria-label="CST on ${s.name}"><span>${s.short}</span>${s.name}</a>`).join("")}</div></div><div>${pages.map(([n,u])=>`<a href="${u}">${n}</a>`).join("")}</div><div><b>Start a conversation</b><a href="${wa}" target="_blank" rel="noopener">WhatsApp Anna ↗</a><small>CST AI Initiative · AI Prompt Thinking</small></div></div></footer>`;
+document.querySelector("[data-footer]").innerHTML=`<footer class="footer"><div class="wrap footer-grid"><div><a class="brand" href="index.html"><span class="logo-crop"><img src="assets/cst-logo.png" alt="CST"></span><small>IMPACT ACADEMY</small></a><p>Navigating the AI Era, Together.</p><div class="social-links" aria-label="CST social media">${socialLinks.map(s=>`<a href="${s.url}" target="_blank" rel="noopener noreferrer" aria-label="CST on ${s.name}"><img src="https://cdn.simpleicons.org/${s.icon}/ffffff" alt="" loading="lazy"><span>${s.name}</span></a>`).join("")}</div></div><div>${pages.map(([n,u])=>`<a href="${u}">${n}</a>`).join("")}</div><div><b>Start a conversation</b><a href="${wa}" target="_blank" rel="noopener">WhatsApp Anna ↗</a><small>CST AI Initiative · AI Prompt Thinking</small></div></div></footer>`;
 document.querySelectorAll("[data-cta]").forEach(el=>el.outerHTML=`<section class="section cta"><div class="wrap split"><div><p class="label">YOUR NEXT STEP</p><h2>Find the right place<br><em>to begin.</em></h2></div><div><p>Whether you are exploring for yourself, your team or your organisation, begin with a conversation about where you are now.</p><a class="btn gold" href="${wa}" target="_blank" rel="noopener">Talk to Anna ↗</a></div></div></section>`);
 document.querySelectorAll("[data-wa]").forEach(a=>{a.href=wa;a.target="_blank";a.rel="noopener"});
 document.querySelectorAll("[data-kaku-signup]").forEach(a=>{a.href=kakuSignup;a.target="_blank";a.rel="noopener"});
@@ -182,6 +182,54 @@ Object.assign(zh,{
 "CONTRIBUTION SIGNAL":"共建信号","Contribution, not":"共建，而不是","Every member receives a Chimp Community Passport—a living record of who they are, how they participate and what they contribute.":"每位成员都会拥有一份 Chimp Community Passport，记录自己的社群身份、参与历程与共建成果。","Make useful participation and support for others more visible.":"让有价值的参与、共建与对他人的支持被看见。"
 });
 Object.assign(titleZh,{"CST Impact Academy — Human capability for an evolving world":"CST Impact Academy — 为持续变化的世界建立人的能力","AI Prompt Thinking — From chatbot to thinking partner":"AI 思维范式 — 从聊天机器人走向思维伙伴","For Organisations — CST Impact Academy":"企业与组织方案 — CST Impact Academy"});
+Object.assign(zh,{
+"You search for an answer instead of exploring the problem, alternatives and trade-offs.":"你只想尽快找到答案，却没有深入看清问题、其他可能与背后的取舍。",
+"A confident answer may still be incomplete, unsuitable or factually wrong.":"AI 说得再有自信，也可能资料不完整、不适合你的情况，甚至事实有误。",
+"Copying the first response saves time now, but weakens judgement over time.":"直接采用第一版看似省时，长期却会削弱你的思考与判断能力。",
+"AI can process knowledge. Trust, relationships, responsibility and judgement remain human.":"AI 能处理知识，但信任、关系、责任与最终判断，始终需要人。",
+"Participants build a practical set of thinking habits that can be used across different AI tools and work situations.":"你将建立一套能马上应用的 AI 思考习惯，无论换工具、换岗位或换工作情境，都能继续使用。",
+"Make vague ideas easier to understand and work with.":"把模糊想法说清楚，才能更容易讨论、判断并采取行动。",
+"Give AI the background it actually needs.":"提供真正关键的背景，让 AI 回应你的真实情况，而不是给出通用答案。",
+"Choose how to enter and examine a problem.":"先选择合适的切入方式，再深入看清问题。",
+"Identify the important dimensions of a situation.":"看见影响结果的重要面向，避免只从单一角度判断。",
+"Turn a starting idea into connected possibilities.":"从一个起点扩展开来，看见更多关键词、关系与可能性。",
+"Use AI to question, strengthen and improve your prompt.":"让 AI 协助追问、补强并优化你的提示，而不是独自猜测怎么写。",
+"Review, challenge and refine instead of stopping at version one.":"持续检视、挑战与修正，不停留在第一版答案。",
+"Move from one answer to multiple angles and connected relationships.":"从单一答案，走向多个角度，再看见彼此之间的关系。",
+"Recognise where repeated AI work can become a useful process.":"识别重复出现的 AI 任务，把一次性的提示逐步变成可复用流程。",
+"Ask AI for an answer":"向 AI 索取答案","Use AI to explore the problem":"与 AI 一起探索问题",
+"Give very little background":"只提供少量背景","Build context around the real situation":"围绕真实情况建立完整背景",
+"Accept the first response":"接受 AI 的第一版回答","Review, challenge and improve":"检视、挑战，再持续改善",
+"Copy output quickly":"快速复制 AI 产出","Keep human judgement in the loop":"保留人的判断与最终决定",
+"Use one prompt at a time":"每次只使用一个提示","Notice opportunities for repeatable workflows":"看见可以重复执行的工作流机会",
+"Ask AI for answers.":"向 AI 索取答案。","Write clearer prompts.":"写出更清楚的提示。",
+"Use AI to explore and challenge.":"与 AI 一起探索、追问与挑战。","Review and improve step by step.":"一步一步检视并改善结果。",
+"Recognise repeatable opportunities.":"识别可以重复与流程化的机会。",
+"AI Prompt Thinking supports everyday tasks across roles and industries.":"AI 思维范式不是抽象理论，而是帮助不同岗位把日常工作想清楚、说清楚、做得更好的实用方法。",
+"Prepare replies, understand concerns and adjust tone for different situations.":"更快掌握客户顾虑，准备合适回复，并根据不同情境调整语气。",
+"Clarify goals, map tasks, identify risks and plan next steps.":"厘清目标、拆解任务、预见风险，并规划清楚的下一步。",
+"Think through team issues, policies and sensitive communication.":"梳理团队问题、政策影响与敏感沟通，减少误解和遗漏。",
+"Compare options, challenge assumptions and examine trade-offs.":"比较选择、挑战假设，并看清每个决定背后的取舍。",
+"Develop stronger briefs, ideas, angles and audience context.":"建立更完整的 brief、创意角度与受众背景，让内容更贴近真实需求。",
+"Structure information, strengthen reasoning and find missing pieces.":"整理复杂资料、加强论证，并找出提案或培训内容中遗漏的部分。",
+"Bring practical work situations":"带着真实工作情境来练习","Practise the five-step thinking process":"现场练习五步 AI 思考流程",
+"Review and improve AI responses":"学会检视并改善 AI 回应","Recognise where repeated work may become a workflow":"找出可从重复工作发展成工作流的机会"
+});
+Object.assign(zh,{
+"Expecting AI to solve every problem":"期待 AI 解决所有问题",
+"Problem framing, prompt practice and thinking maps.":"从问题拆解、提示练习到思考地图，把想法一步步变清楚。",
+"Concepts connected to practical work situations.":"把概念直接连接到真实工作情境。",
+"Explore, discuss and improve together.":"一起探索、讨论，并在反馈中持续改善。",
+"Watch this testimonial on YouTube ↗":"在 YouTube 观看这则学员分享 ↗",
+"Watch this participant testimonial on YouTube":"在 YouTube 观看学员分享",
+"A practical starting point for founders, leaders, teams and working professionals.":"为创办人、领导者、团队与职场人士设计的实用 AI 起点。",
+"No. The workshop focuses on thinking and communicating with AI.":"不需要。工作坊重点是如何思考、表达，并与 AI 有效协作。",
+"No. The thinking process can be used with different conversational AI tools.":"不只。这套思考流程也适用于其他对话式 AI 工具。",
+"The focus is not memorising templates. You will learn how to build prompts from clearer thinking and context.":"重点不是背模板，而是学会从清楚的思考与真实背景，建立适合当下情况的提示。",
+"Yes. It is especially useful for people who already ask AI questions but want more useful results.":"适合。尤其适合已经会向 AI 提问，却希望答案更准确、更贴近实际需求的人。",
+"Contact CST to discuss the appropriate format for your organisation or department.":"欢迎联系 CST，一起讨论适合你企业或部门的授课方式。",
+"Learn to break down the problem, build useful context and improve AI responses through a structured thinking loop.":"学会拆解问题、建立有效背景，并通过结构化思考循环，让 AI 回应越来越有用。"
+});
 zh["Chimpanzee"]="Chimpanzee";
 const originals=new WeakMap();
 const originalTitle=document.title;
