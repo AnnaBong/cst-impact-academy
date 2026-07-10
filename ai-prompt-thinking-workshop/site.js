@@ -98,7 +98,7 @@ Object.assign(zh,{
 "CST INSIGHTS · THINKING IN PRACTICE":"CST 洞察 · 在实践中思考","FRAMEWORK":"框架","ARTICLE · CURRENT WEBSITE":"文章 · 现有网站内容","Does personality really limit a person’s development?":"性格真的会限制一个人的发展吗？","Existing CST article retained as a migration candidate.":"现有 CST 文章，列为后续迁移内容。","View current CST website →":"前往现有 CST 网站 →","Why can understanding yourself sometimes make things less clear?":"为什么越想了解自己，反而越看不清自己？","PODCAST · LIBRARY":"播客 · 内容库","The future library for conversations about growth, thinking, leadership and transformation.":"未来将收录关于成长、思考、领导与转型的深度对话。","Visit the current podcast →":"前往现有播客 →","Why systems matter more than isolated tools":"为什么系统比单一工具更重要","A future editorial pathway connecting CST frameworks with practical action.":"连接 CST 框架与实际行动的内容路径。"
 });
 Object.assign(zh,{
-"Stop asking AI for better answers.":"这是一个没有 website designer 背景，","Start thinking with AI.":"开始学习与 AI 一起思考。",
+"Stop asking AI for better answers.":"别再只向 AI 索取更好的答案。","Start thinking with AI.":"开始学习与 AI 一起思考。",
 "If ChatGPT gives you generic answers, the problem may not be the tool—or your wording. It may be how the problem is framed before you ask.":"如果 ChatGPT 给你的答案总是很普通，问题可能不在工具，也不只在措辞，而在于提问前有没有先把问题想清楚。",
 "Ask about the Workshop ↗":"询问工作坊 ↗","See how it works":"看看 AI 思维如何运作","PUBLIC · RM268   /   ACTIVE CHIMPS · FOC":"公众 RM268 · 活跃 Chimps 免费",
 "DOES THIS SOUND FAMILIAR?":"这些情况，你熟悉吗？","“The answer looks good, but it does not fit my situation.”":"“答案看起来不错，却不适合我的实际情况。”","“I keep rewriting the prompt and still get generic output.”":"“我不断重写提示，得到的还是普通答案。”","“I am not sure whether the AI answer is actually correct.”":"“我不确定 AI 的答案到底对不对。”","THE GAP MAY BE THINKING—NOT TYPING.":"真正的差距，可能不在输入，而在思考。",
@@ -149,7 +149,7 @@ Object.assign(zh,{
 });
 Object.assign(zh,{"Watch a participant share their own learning experience. CST does not add or rewrite their words.":"观看一位学员亲自分享学习体验。CST 不添加或改写他的说法。","Watch the testimonial on YouTube ↗":"前往 YouTube 观看学员见证 ↗","Watch the participant testimonial on YouTube":"前往 YouTube 观看学员见证"});
 Object.assign(zh,{
-"Start learning how to think with AI.":"没有 IT/Programmer 背景做出来的页面",
+"Start learning how to think with AI.":"开始学习如何与 AI 一起思考。","Built by someone without a website designer background or IT/programmer background.":"这是一个没有 website designer 背景、没有 IT/Programmer 背景做出来的页面",
 "AI Prompt Thinking helps founders, leaders and working professionals break down problems, build useful context, ask better questions, identify blind spots and improve AI responses through a structured thinking loop.":"AI 思维范式帮助创办人、领导者与职场人士拆解问题、建立有用背景、提出更好的问题、发现盲点，并透过结构化思考循环改善 AI 回应。",
 "YOUR CURRENT AI EXPERIENCE":"你目前的 AI 使用状态","The answer sounds polished, but too generic.":"答案看起来完整，却太普通。","You have many ideas, but no clear direction.":"你有很多想法，却没有清楚方向。","You do not know what context AI needs.":"你不知道 AI 需要什么背景。","You are unsure whether the answer is correct.":"你不确定答案是否正确。",
 "You know how to use ChatGPT.":"你已经会使用 ChatGPT。","But the answers still feel":"但答案还是觉得","just okay.":"只是还可以。","The challenge is often not the AI tool. It is what happens before you type the prompt.":"问题通常不在 AI 工具，而在你输入提示之前做了什么。","When the problem is unclear, the context is incomplete or the first answer is accepted too quickly, AI can only produce something broad and surface-level.":"当问题不清楚、背景不完整，或太快接受第一个答案时，AI 只能给出宽泛而表面的回应。","Better AI work begins by slowing down long enough to understand the task, organise what matters and decide what a useful answer should help you do.":"更好的 AI 工作，始于先理解任务、整理重点，并确定一个有用答案应该帮助你完成什么。",
